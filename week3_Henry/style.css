@@ -1,0 +1,74 @@
+body{
+    background-color:black !important;
+    color:white !important;
+}
+/** {
+   border:1px dashed green;
+   min-height: 100px;
+}*/
+        /*Nav Style*/
+.navnum{
+    text-decoration: none;
+    color:white;
+    font-family: 'Kenia', cursive;
+  }
+
+.nav-link{
+    text-decoration: none;
+    color: white !important ;
+    font-family:'Amatic Sc', cursive ;
+    font-size: 1.5vw;
+}
+.nav-item{
+
+}
+.nav-link:hover{
+    color:blue;
+    background-color: black;
+    border-radius: 25px;
+    font-family: 'Kenia', cursive;
+    transition: 1s;
+}
+.nav-link:hover{
+    color:blue;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+.dropdown-item{
+    color:black;
+    border-radius: 25px;
+    font-family:'Amatic Sc', cursive ;
+    font-size: 1.5vw;
+}
+.dropdown-item:hover{
+    background-color: black !important;
+    color:white !important;
+    font-family: 'Kenia', cursive;
+    transition: 1s;
+}
+             /*Body Style*/
+.myname{
+    font-family:'Amatic Sc', cursive ;
+    color:white;
+}
+.offcanvas-body{
+    background-color:skyblue!important;
+}
+#whoami{
+    background-color: skyblue;
+    border-radius:10px;
+}
+.ovidot{
+    background-color: skyblue;
+    border-radius: 25px;
+}
+.xpdesign{
+    color:rgb(232, 135, 17);
+    font-family: 'Kenia', cursive;
+    font-size: 2vw;
+}
+.mystars{
+    font-family:'Amatic Sc', cursive ;
+    color:white;
+    font-size: 1.5vw;
+}
