@@ -1,0 +1,324 @@
+*{
+    border:0px solid grey;
+    min-height: 30px;
+    color: #000;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    height: 700px;
+    background-color: rgb(250, 250, 250);
+}
+
+.navbar{
+    position:sticky;
+    top:0px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    width:90%;
+    min-height:20px;
+    border-radius:10px;
+    margin: auto;
+    justify-content:space-between;
+}
+#logo{
+    width:30%;
+    min-height:20px;
+    padding-top: 10px;
+    background-color: white;
+    text-align:center;
+    font-size:25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#stickynav{
+    width: 100%;
+}
+#topmenu{
+    display:flex;
+    list-style-type: none;
+    position: relative;
+    top:-5px;
+    justify-content: space-evenly;*/
+}
+#topmenu li a{
+    text-decoration: none;
+}
+#topmenu li:hover{
+    background-color:gray;
+    border-radius: 20px;
+    height: 20px;
+    width: 70px;
+}
+
+.HPbody{
+    height:600px;
+}
+.bgimage{
+    background-image:url("../images/contentback.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.bgoverlay{
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    min-height:600px;
+
+}
+.content{
+    position: relative;
+    max-height: 300px;
+    max-width: 40%;
+    box-shadow: 10px 10px 12px rgba(99, 190, 227, 0.1);
+    border-radius: 20px;
+    color: white;
+}
+#text{
+    font-size:40px;
+    font-family: cursive;
+    text-align:center;
+    position:relative;
+    left: -300px;
+    top:100px;
+}
+button{
+    position: relative;
+    top:200px;
+    left:200px;
+    background-color: Transparent;
+    font-family:cursive;
+    border: none;
+    font-size: 20px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: black;
+}
+#footer{
+    min-height: 20px;
+    background-color: rgb(197, 195, 195);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    text-align:center;
+    font-size:11px;
+    list-style-type:none;
+}
+#footer2{
+    min-height: 20px;
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    text-align:center;
+    font-size:11px;
+    list-style-type:none;
+}
+h2 #text{
+    text-align: center;
+}
+                    /*ABOUT PAGE STYLING*/
+.aboutheader{
+height: 400px;
+background-image: url("../images/design.jpg"),
+linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+background-blend-mode: overlay;
+background-size:cover;
+background-position:top;
+}
+.aboutheader2{
+    height: 400px;
+    background-image: url("../images/build.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position:center;
+    }
+.aboutheader3{
+    height: 400px;
+    background-image: url("../images/About.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position:top;
+}
+.aboutheader4{
+    height: 400px;
+    background-image: url("../images/create.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position:top;
+}
+.aboutheadertext{
+    text-align:center;
+    font-family:'cursive';
+    padding-top:180px;
+    color: white;
+}
+
+#space{
+    width:100%;
+    justify-content:;
+}
+.aboutheader img{
+    width: auto;
+    height:auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+                        /*CONTACT PAGE STYLING*/
+.contactusheader{
+height: 400px;
+background-image: url("../images/contact2\ small.jpg"),
+linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+background-blend-mode: overlay;
+background-size:cover;
+background-position:center;
+}
+.contactheadertext{
+    text-align:center;
+    font-family:'cursive';
+    padding-top:180px;
+    color: white;
+}
+#contactus{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    padding:10px;
+}
+.CUchild{
+    max-height: 800px;
+    width: 40%;
+}
+form ul li{
+    list-style-type: none;
+    margin-top:30px;
+}
+form ul{
+    border: 1px solid black;
+    margin-left:150px;
+    border-width: 2px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+form ul li label{
+    font-family:cursive;
+}
+form ul li input{
+    border: 1px solid black;
+    background-color: rgb(208, 208, 208);
+}
+form ul li textarea{
+    border: 1px solid black;
+    background-color: rgb(208, 208, 208);
+    max-width: 350px;
+    max-height: 200px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+#box1{
+    position: relative;
+    top:120px;
+    left:60px;
+}
+#box2{
+    position: relative;
+    top:120px;
+    left:100px;
+}
+#box3{
+    position: relative;
+    top:30px;
+    left:180px;
+    z-index:1;
+}
+#prefooter{
+    width: 100%;
+    min-height:300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.contactinfo{
+    padding-top: 30px;
+    height:300px;
+    width:30%;
+}
+#CI1 h1{
+    color:white;
+    font-family: cursive;
+    text-align: center;
+}
+#CI1 pre{
+    color:white;
+    font-family: cursive;
+    text-align: center;
+}
+#CI2 h1{
+    color:white;
+    font-family: cursive;
+    text-align: center;
+}
+#CI2 pre{
+    color:white;
+    font-family: cursive;
+    text-align: center;
+}
+                /*GOD ABEG...lol*/
+                /* MEDIA QUERY MOBILE */
+@media screen and (max-width:360px;) {
+
+}
+
+                /* MEDIA QUERY TABLET */
+                        /*HOME*/
+@media  screen and (max-width:767px) {
+    body{
+        font-size: 0.rem;
+        width:100%;
+    }
+    #navbar{
+        display:flexbox;
+    }
+    #logo{
+        width:100%;
+        position:relative;
+        top:0px;
+        left:30%;
+        max-height: 20px;
+    }
+    .bgimage .bgoverlay h2{
+        width:100%;
+        font-size: 1rem;
+    }
+    h2 .content{
+        position:absolute;
+    }
+#footer li{
+    flex-direction: column;
+    width:100%;
+}
+
+
+
+#stickynav #topmenu{height:230px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+    right: 50%;
+}
+#stickynav #topmenu li a{height:230px;
+
+}
+}

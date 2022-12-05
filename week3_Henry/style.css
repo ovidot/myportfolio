@@ -18,7 +18,7 @@ div{
     font-family: 'Kenia', cursive;
   }
 .navbar-toggler-icon{
-    background-color: skyblue;
+    background-color: black;
     border-radius:5px;
   }
 .nav-link{
@@ -36,11 +36,6 @@ div{
     border-radius: 25px;
     font-family: 'Kenia', cursive;
     transition: 1s;
-}
-.nav-link:hover{
-    color:blue;
-    background-color: skyblue;
-    border-radius: 25px;
 }
 .dropdown-item{
     color:black;
@@ -194,6 +189,14 @@ div{
     border-radius: 15px;
     padding: 5px;
 }
+#toolinggbb{
+    align: center;
+    width: 50%;
+    background-color:black;
+    justify-content:space-evenly;
+    border-radius: 15px;
+    padding: 5px;
+}
 .myicon{
     justify-content:space-evenly;
     height:30px;
@@ -224,4 +227,25 @@ div{
 .abta{
     color:rgba(232, 135, 17,0.8) !important;
     font-weight:bolder;
+}
+#footer{
+    color: black;
+    min-height: 20px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    text-align:center;
+    font-size:11px;
+    list-style-type:none;
+}
+.pname{
+    text-decoration: none;
+    color:black;
+}
+.pname:hover{
+    background-color: black;
+    color:white;
+    transition: s;
+    border-radius: 10px;
 }

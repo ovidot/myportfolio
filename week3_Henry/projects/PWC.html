@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head><title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1
+                    shrink-to-fit=no">
+    <style type="text/css">
+            *{
+                border: 0px solid black;
+               /* min-height: 100px;*/
+            }
+            .parent{
+                display:flex;
+                justify-content: space-around;
+            }
+            .mybox{
+                width: 30%;
+            }
+            .banner{
+                background:skyblue url("images/banner.jpg") top fixed;
+                background-size:cover;
+                height: 350px;
+            }
+            .imgdimension{
+                width: 100%;
+            }
+            .caption{
+                font-size:32px;
+                color:#fff;
+                background-color: lightgreen;
+                text-align:center;
+                padding:20px;
+            }
+    </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>Navigation</nav>
+            <header>
+                <div class="banner"></div>
+                <div class="caption"> We are good to go</div>
+            </header>
+            <main class="parent">
+                <div class="mybox">
+                    <img src="images/client-1.jpg" alt="photo" class="imgdimension">
+                    <h3>INtroduction to HTML</h3>
+                    <p>
+                        Notice the black background before the 
+                        sticky menu, it ensures that we scroll the 
+                        page up to the point specified before the 
+                        menu becomes fixed
+                    </p>
+                </div>
+                <div class="mybox">
+                    <img src="images/client-2.jpg" alt="photo" class="imgdimension">
+                    <h3>Certification</h3>
+                    <p>
+                        Notice the black background before the 
+                        sticky menu, it ensures that we scroll the 
+                        page up to the point specified before the 
+                        menu becomes fixed
+                    </p>
+                </div>
+                <div class="mybox">
+                    <img src="images/client-3.jpg" alt="photo" class="imgdimension">
+                    <h3>Tourism & Culture</h3>
+                    <p>
+                        Notice the black background before the 
+                        sticky menu, it ensures that we scroll the 
+                        page up to the point specified before the 
+                        menu becomes fixed
+                    </p>
+                </div>
+            </main>
+            <footer>
+                footer
+            </footer>
+    </div>
+
+    </body>
+</html>
