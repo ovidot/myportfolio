@@ -2,22 +2,30 @@ body{
     background-color:black !important;
     color:white !important;
 }
-/** {
-   border:1px dashed green;
-   min-height: 100px;
-}*/
+div{
+  
+   /* border:1px dashed green;
+  min-height: 100px;*/
+}
         /*Nav Style*/
+.navhm{
+    background-color:rgb(232, 135, 17);
+    border-radius:25px ;
+}
 .navnum{
     text-decoration: none;
     color:white;
     font-family: 'Kenia', cursive;
   }
-
+.navbar-toggler-icon{
+    background-color: skyblue;
+    border-radius:5px;
+  }
 .nav-link{
     text-decoration: none;
     color: white !important ;
     font-family:'Amatic Sc', cursive ;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 .nav-item{
 
@@ -38,7 +46,7 @@ body{
     color:black;
     border-radius: 25px;
     font-family:'Amatic Sc', cursive ;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 .dropdown-item:hover{
     background-color: black !important;
@@ -50,9 +58,6 @@ body{
 .myname{
     font-family:'Amatic Sc', cursive ;
     color:white;
-}
-.offcanvas-body{
-    background-color:skyblue!important;
 }
 #whoami{
     background-color: skyblue;
@@ -71,4 +76,152 @@ body{
     font-family:'Amatic Sc', cursive ;
     color:white;
     font-size: 1.5vw;
+}
+
+                 /*Offcanvas style*/
+.offcanvas-body{
+    background-color:skyblue!important;
+}
+.offcanvas-header{
+    background-color: black;
+    align-items: center !important;
+}
+.offcanvas-title{
+  font-size:20px;
+  text-align: center;
+}
+.btn-close{color:white;
+}
+.OCdescription{
+    font-size:15px;
+    text-align: center;
+}
+.my2name{
+    font-family:'Amatic Sc', cursive ;
+    color:black;
+}
+.OCcharacter{
+    border:3px solid rgb(232, 135, 17);
+    border-radius:50%;
+    height:55px;
+    text-align: center;
+    padding-top:10px;
+    color:black;
+    font-family:'Amatic Sc', cursive ;
+    font-size: 20px;
+}
+.OCcharacter1{
+    padding: right 5px;
+    color:black;
+    text-align: center;
+}
+.Prgsbar{
+    height:10px;
+    background-color: grey;
+    margin-top:0px;
+}
+#b1{
+    height:inherit;
+    background-color:rgb(232, 135, 17);
+    width: 50%;
+    text-align: center;
+}
+#b2{
+    height:10px;
+    background-color:rgb(232, 135, 17);
+    width: 90%;
+    text-align: center;
+}
+#b3{
+    height:10px;
+    background-color:rgb(232, 135, 17);
+    width: 75%;
+    text-align: center;
+}
+#b4{
+    height:10px;
+    background-color:rgb(232, 135, 17);
+    width: 55%;
+    text-align: center;
+}
+#b5{
+    height:10px;
+    background-color:rgb(232, 135, 17);
+    width: 45%;
+    text-align: center;
+}
+
+
+             /*Contact Style*/
+.subtitle{
+    
+    font-family:'Amatic Sc', cursive ;
+    color: skyblue;
+    font-size: 2vw;
+}
+.subtitle2{
+    font-family: 'Kenia', cursive;
+    color: white;
+    font-weight:900;
+}
+.codefnt{
+    font-family: 'Alex Brush', cursive;
+    color:grey;
+}
+#sndmsg{
+    background-color:rgb(135, 206, 235);
+}
+#sndmsg:hover{
+    color:black;
+    background-color:rgb(232, 135, 17);
+    border-radius: 25px;
+    transition: 1.5s;
+}
+
+/*TOOLING*/
+#tooling{
+    margin-top: 5px;
+    border-radius:25px;
+    height:60px;
+    width:120px;
+    background-color:rgba(135, 206, 235, 0.7);
+}
+#toolinggb{
+    align: center;
+    width: 50%;
+    background-color:rgba(232, 135, 17,0.8);
+    justify-content:space-evenly;
+    border-radius: 15px;
+    padding: 5px;
+}
+.myicon{
+    justify-content:space-evenly;
+    height:30px;
+    color:black;
+    
+}
+#ticon{
+    font-family: 'Alex Brush', cursive;
+}
+.stat-btn{
+    background-color: skyblue !important;
+    border-radius: 20px;
+
+}
+
+.lnklist{
+    list-style-type: none;
+    color: none;
+} 
+.lnklist li a{
+    color: white;
+}
+.lnklist li a:hover{
+    background-color: skyblue;
+    color:rgba(232, 135, 17,0.8);
+    border-radius: 50%;
+}
+.abta{
+    color:rgba(232, 135, 17,0.8) !important;
+    font-weight:bolder;
 }
