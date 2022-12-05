@@ -3,7 +3,6 @@ body{
     color:white !important;
 }
 div{
-  
    /* border:1px dashed green;
   min-height: 100px;*/
 }
@@ -149,7 +148,6 @@ div{
 
              /*Contact Style*/
 .subtitle{
-    
     font-family:'Amatic Sc', cursive ;
     color: skyblue;
     font-size: 2vw;
@@ -201,7 +199,6 @@ div{
     justify-content:space-evenly;
     height:30px;
     color:black;
-    
 }
 #ticon{
     font-family: 'Alex Brush', cursive;
@@ -215,7 +212,7 @@ div{
 .lnklist{
     list-style-type: none;
     color: none;
-} 
+}
 .lnklist li a{
     color: white;
 }
